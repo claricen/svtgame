@@ -1,7 +1,7 @@
 
-export function changeCharacter(character) {
+export function changeConfidant(confidant) {
   return {
-    type: 'CHANGE_CHARACTER',
-    character
+    type: 'CHANGE_CONFIDANT',
+    confidant
   }
 }
